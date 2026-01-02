@@ -1,19 +1,19 @@
 /* ========================================
-   MIDNIGHT PURPLE × NEON VIOLET THEME
+   RED & BLACK THEME
    Professional Portfolio - Kunal Singhal
    ======================================== */
 
 :root {
   /* Color Palette */
-  --bg-main: #0B0F1A;
-  --bg-card: #11162A;
-  --border-color: #1F2440;
-  --accent-primary: #8B5CF6;
-  --accent-secondary: #C084FC;
-  --accent-hover: #A78BFA;
-  --text-primary: #E5E7EB;
-  --text-secondary: #9CA3AF;
-  --text-muted: #6B7280;
+  --bg-main: #0A0A0A;
+  --bg-card: #1A1A1A;
+  --border-color: #2A2A2A;
+  --accent-primary: #DC2626;
+  --accent-secondary: #EF4444;
+  --accent-hover: #F87171;
+  --text-primary: #F5F5F5;
+  --text-secondary: #D1D5DB;
+  --text-muted: #9CA3AF;
 
   /* Typography */
   --font-heading: 'Poppins', sans-serif;
@@ -69,7 +69,12 @@ body {
    TYPOGRAPHY
    ======================================== */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 600;
   line-height: 1.2;
@@ -172,12 +177,12 @@ code {
 .btn-primary {
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   color: white;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.4);
 }
 
 .btn-outline {
@@ -189,7 +194,7 @@ code {
 .btn-outline:hover {
   background: var(--accent-primary);
   color: white;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
 }
 
 /* ========================================
@@ -206,7 +211,7 @@ code {
 
 .card:hover {
   border-color: var(--accent-primary);
-  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 8px 30px rgba(220, 38, 38, 0.15);
   transform: translateY(-4px);
 }
 
@@ -229,9 +234,9 @@ a:hover {
    ======================================== */
 
 .grid-background {
-  background-image: 
-    linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+  background-image:
+    linear-gradient(rgba(220, 38, 38, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(220, 38, 38, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
@@ -240,7 +245,7 @@ a:hover {
    ======================================== */
 
 .gradient-bg {
-  background: linear-gradient(135deg, var(--bg-main) 0%, #1a1f3a 100%);
+  background: linear-gradient(135deg, var(--bg-main) 0%, #1a0a0a 100%);
 }
 
 .gradient-border {
@@ -270,6 +275,7 @@ a:hover {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -281,11 +287,14 @@ a:hover {
 }
 
 @keyframes glow {
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
   }
+
   50% {
-    box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 30px rgba(220, 38, 38, 0.5);
   }
 }
 
