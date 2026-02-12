@@ -24,7 +24,7 @@ const Hero = () => {
                     </p>
 
                     <div className="hero-cta">
-                        <a href="Resume.pdf" download className="btn btn-primary">
+                        <a href="/Resume.pdf" download className="btn btn-primary">
                             Download Resume
                         </a>
                         <button
