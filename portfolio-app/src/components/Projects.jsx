@@ -2,33 +2,33 @@ import './Projects.css';
 
 const Projects = () => {
     const projects = [
+        // {
+        //     title: 'Smart Parking System',
+        //     techStack: ['IoT', 'Machine Learning', 'Python', 'Arduino', 'TensorFlow'],
+        //     description: 'IoT-based intelligent parking management system using ML algorithms to predict parking availability and optimize space utilization.',
+        //     github: 'https://github.com/tr-kunal',
+        //     demo: null
+        // },
         {
-            title: 'Smart Parking System',
-            techStack: ['IoT', 'Machine Learning', 'Python', 'Arduino', 'TensorFlow'],
-            description: 'IoT-based intelligent parking management system using ML algorithms to predict parking availability and optimize space utilization.',
-            github: 'https://github.com/tr-kunal',
-            demo: null
-        },
-        {
-            title: 'Smart Weather Prediction System',
-            techStack: ['Machine Learning', 'Python', 'Scikit-learn', 'Flask', 'React'],
-            description: 'ML-powered weather forecasting application using historical data and advanced prediction models for accurate weather insights.',
-            github: 'https://github.com/tr-kunal',
-            // demo: 'https://weather-demo.netlify.app'
+            title: 'Smart Weather System',
+            techStack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'API'],
+            description: 'Weather forecasting application using historical data and advanced prediction models for accurate weather insights.',
+            github: 'https://github.com/Tr-kunal/Weather-App',
+
         },
         {
             title: 'AI-based Answer Sheet Evaluation',
             techStack: ['Deep Learning', 'NLP', 'Python', 'TensorFlow', 'OpenCV'],
             description: 'Automated answer sheet evaluation system using NLP and computer vision to assess descriptive answers and provide intelligent scoring.',
-            github: 'https://github.com/tr-kunal',
+            github: 'https://github.com/priyanshusharma05/AI-BASED-EXAM-EVALUTION',
             demo: null
         },
         {
-            title: 'Modern Web Dashboard',
-            techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Chart.js'],
-            description: 'Full-stack responsive dashboard application with real-time data visualization, user authentication, and RESTful API integration.',
-            github: 'https://github.com/tr-kunal',
-            // demo: 'https://dashboard-demo.netlify.app'
+            title: 'FoodieHub',
+            techStack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+            description: 'Food ordering website with responsive design and user-friendly interface.',
+            github: 'https://github.com/Tr-kunal',
+            demo: 'https://kunalfoodiehub.s3.ap-south-1.amazonaws.com/Food-order-website-master/landing_page.html'
         }
     ];
 
